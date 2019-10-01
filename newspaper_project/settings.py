@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'crispy_forms', # 3rd party
     'users.apps.UsersConfig', #local
     'pages.apps.PagesConfig', # new
+    'articles.apps.ArticlesConfig',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +142,5 @@ EMAIL_HOST_PASSWORD = 'SG.sdd8LZa0QWK_YxxKeRhGvQ.x1bk4qlAfeR2SgI4XWqzmTj6BSUxE50
 EMAIL_PORT = 587
 
 EMAIL_USE_TLS = True
+
+TIME_ZONE = 'America/New_York'
